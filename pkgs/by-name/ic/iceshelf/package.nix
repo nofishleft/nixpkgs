@@ -11,15 +11,15 @@
 
 python3.pkgs.buildPythonApplication {
   pname = "iceshelf";
-  version = "0-unstable-2025-06-30";
+  version = "0-unstable-2025-11-08";
 
   format = "other";
 
   src = fetchFromGitHub {
-    owner = "mrworf";
+    owner = "nofishleft";
     repo = "iceshelf";
-    rev = "5380c49e3f7f3df04b61a494b2d94db2f2c65e25";
-    sha256 = "09bbjlkb9kvsb5hrnm36gcgjw5rwchvyq4dza9jazsf6l5gmj8l6";
+    rev = "8db51eb7a0f0e2ae6f6984309b639ae308c74df4";
+    sha256 = "+IADaY6RyV0fPxBWyUz0nuFif0BwrJdDdq6UXWfEhok=";
   };
 
   postPatch = ''
